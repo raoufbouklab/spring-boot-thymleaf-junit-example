@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragments/header">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+</head>
+
+<body>
+<div class="title">
+    <div class="col-md-10 col-md-offset-1">
+        <h1>Contact </h1>
+    </div>
+</div>
+
+<div class="content">
+    <div class="col-md-offset-1 col-md-10">
+        <div class="filename-template">
+            <h2>
+                <span>Contact me: </span>
+                </br>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/raouf-bouklab-a02b3081/">LinkedIn</a></li>
+                    <li><a href="https://github.com/raoufbouklab">GitHub</a></li>
+                    <li><a href="https://twitter.com/RaoufBouklab">Twitter</a></li>
+                </ul>
+            </h2>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <div th:replace="fragments/footer"></div>
+</footer>
+</html>

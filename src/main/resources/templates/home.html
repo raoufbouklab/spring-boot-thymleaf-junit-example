@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragments/header">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+</head>
+
+<body>
+<div class="title">
+    <div class="col-md-10 col-md-offset-1">
+        <h1>Home </h1>
+    </div>
+</div>
+
+<div class="content">
+    <div class="col-md-offset-1 col-md-10">
+        <div class="filename-template">
+            <h5>The program does the following :</h5>
+            <ul>
+                <li>Read the file paragraph.txt</li>
+                <li>Create a sorted list containing a set of unique words and how many times they occur</li>
+                <li>Generate an html report that shows the sorted list of words</li>
+            </ul>
+            <h3>
+                <span>Go to the Report tab to generate the report</span>
+            </h3>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <div th:replace="fragments/footer"></div>
+</footer>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragments/header">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+</head>
+
+<body>
+<div class="title">
+    <div class="col-md-10 col-md-offset-1">
+        <h1>About </h1>
+    </div>
+</div>
+
+<div class="content">
+    <div class="col-md-offset-1 col-md-10">
+        <div class="filename-template">
+            <h2>
+                <span>Example of application using Spring and Thymeleaf created by Raouf Bouklab</span>
+            </h2>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <div th:replace="fragments/footer"></div>
+</footer>
+</html>
