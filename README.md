@@ -69,3 +69,6 @@ Browse to the app at http://localhost:8088
 # Test the application
 
 If You want to test the application with an other paragraph, you just need to put the paragraph you want in the file "src/main/resources/paragraph.txt" and restart the application.
+
+![report](./assets/README-1627862530817.png)
+
