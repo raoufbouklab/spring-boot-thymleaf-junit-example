@@ -44,7 +44,7 @@ To run the Application, you need to have [JDK](http://www.oracle.com/technetwork
 ```
 Clone the project or download and unzip it, go to managereports diractory and run the app
 
-cd springboot-thymleaf-junit-manage-reports
+cd spring-boot-thymleaf-junit-example
 mvn clean install
 mvn spring-boot:run
 ```
